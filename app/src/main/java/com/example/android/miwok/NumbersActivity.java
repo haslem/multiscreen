@@ -16,15 +16,15 @@ public class NumbersActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
 
         ArrayList<Word> words = new ArrayList<>();
-        words.add(new Word("one", "miwok1"));
-        words.add(new Word("two", "miwok2"));
-        words.add(new Word("three", "miwok3"));
-        words.add(new Word("four", "miwok4"));
-        words.add(new Word("five", "miwok5"));
-        words.add(new Word("six", "miwok6"));
-        words.add(new Word("seven", "miwok7"));
-        words.add(new Word("eight", "miwok8"));
-        words.add(new Word("nine", "miwok9"));
+        words.add(new Word("one", "miwok1", R.drawable.number_one));
+        words.add(new Word("two", "miwok2", R.drawable.number_two));
+        words.add(new Word("three", "miwok3", R.drawable.number_three));
+        words.add(new Word("four", "miwok4", R.drawable.number_four));
+        words.add(new Word("five", "miwok5", R.drawable.number_five));
+        words.add(new Word("six", "miwok6", R.drawable.number_six));
+        words.add(new Word("seven", "miwok7", R.drawable.number_seven));
+        words.add(new Word("eight", "miwok8", R.drawable.number_eight));
+        words.add(new Word("nine", "miwok9", R.drawable.number_nine));
 
 
         //android.R.layout.simple_list_item_1  - predefined by Android
