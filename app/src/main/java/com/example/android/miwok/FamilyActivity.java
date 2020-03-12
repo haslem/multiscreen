@@ -27,7 +27,7 @@ public class FamilyActivity extends AppCompatActivity {
         //it is one of predefined layouts in R.layout
         //android.R.layout.simple_list_item_1 - predefined layout, that contains one textview
         //https://developer.android.com/reference/android/R.layout
-        WordAdapter adapter = new WordAdapter(this, words);
+        WordAdapter adapter = new WordAdapter(this, words, R.color.category_family);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
 
